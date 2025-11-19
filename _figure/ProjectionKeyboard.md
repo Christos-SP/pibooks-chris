@@ -10,7 +10,7 @@ categories:
   - Εργαλεία
   - Πληκτρολόγια
 tags:
-  - Magic Cube ή CL850
+  - Magic Cube
   - CL850
   - Virtual keyboad 
 ---
