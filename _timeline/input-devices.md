@@ -21,5 +21,6 @@ events:
   - media-scrub
   - kinect
   - leap-motion
+  - Apple_iPad
 ---
 
