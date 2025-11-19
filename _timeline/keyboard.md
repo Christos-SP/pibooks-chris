@@ -16,5 +16,7 @@ events:
   - apple2
   - virtual-keyboard
   - predictive-text
+  - Apple_iPad
+  - ProjectionKeyboard
 ---
 
