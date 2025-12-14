@@ -1,16 +1,20 @@
 ---
 author: aegeandp
-title: NFC tap-to-pay — πληρωμή με εγγύτητα
+title: NFC “tap” σε τερματικό πληρωμών (proximity interaction)
+year: 2014
 image_url: /images/mobile-payment-nfc.jpg
-caption: Η αλληλεπίδραση εδώ είναι η «χειρονομία εγγύτητας» (tap) που μειώνει βήματα στο UI: ο χρήστης φέρνει τη συσκευή κοντά στο τερματικό και η επιβεβαίωση ολοκλήρωσης/αποτυχίας γίνεται με άμεσο feedback (ήχος/μήνυμα/δόνηση). Έτσι χτίζεται αίσθηση ελέγχου και εμπιστοσύνης σε μια γρήγορη συναλλαγή σε διάχυτο περιβάλλον.
-license_url: 'https://commons.wikimedia.org/wiki/File:Mobile_payment_02.JPG'
-license_text: Wikimedia
+caption: Το βασικό HCI φαινόμενο είναι η «χειρονομία εγγύτητας» (tap) που μειώνει βήματα και γνωστικό φόρτο. Ο χρήστης χρειάζεται άμεσο, σαφές feedback (ήχος/δόνηση/μήνυμα “Approved/Declined”) ώστε να αποφασίσει αν θα επαναλάβει, θα ακυρώσει ή θα αλλάξει μέσο πληρωμής—δηλαδή να διατηρήσει τον έλεγχο της διάδρασης μέσα σε δυναμικό περιβάλλον.
+license_url: https://commons.wikimedia.org/wiki/File:Mobile_payment_02.JPG
+license_text: Wikimedia Commons – CC BY-SA 3.0
 categories:
-  - Μορφές
+  - Κινητός Υπολογισμός
   - Διάχυτος Υπολογισμός
-  - Συναλλαγές
+  - Διάδραση Εγγύτητας
 tags:
   - NFC
-  - mobile payment
-  - tap-to-pay
+  - Tap-to-pay
+  - Feedback
+  - Affordance
+  - Trust
 ---
+
