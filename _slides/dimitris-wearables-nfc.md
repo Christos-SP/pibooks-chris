@@ -1,8 +1,11 @@
 ---
 layout: slides
-title: Wearables & NFC — διάδραση με μια ματιά και με εγγύτητα
+title: Wearables & NFC
 image_url: /images/nokia-steel-hr-notification.jpg
-caption: Δύο μοτίβα διάδρασης σε κινητό/διάχυτο υπολογισμό: (1) glanceable ειδοποιήσεις σε wearable και (2) NFC tap-to-pay ως γρήγορη χειρονομία εγγύτητας με άμεσο feedback.
+caption: |
+  Δύο “slides” με έμφαση στη διάδραση:
+  1) ειδοποίηση σε smartwatch (glanceable feedback)
+  2) πληρωμή με NFC (tap/proximity gesture).
 slides:
   - nokia-steel-hr-notification
   - mobile-payment-nfc

@@ -1,7 +1,11 @@
 ---
-title: Wearables & NFC — Γκαλερί διάδρασης
-image_url: /images/nokia-steel-hr-notification.jpg
-caption: Δύο μορφές διάχυτης αλληλεπίδρασης: (1) ειδοποίηση στον καρπό για γρήγορη λήψη απόφασης με ελάχιστη διάσπαση προσοχής και (2) NFC tap-to-pay όπου η φυσική εγγύτητα γίνεται “κουμπί”, με άμεση επιβεβαίωση/feedback.
+layout: gallery
+title: Wearables & NFC
+image_url: /images/mobile-payment-nfc.jpg
+caption: |
+  Γκαλερί με δύο παραδείγματα διάχυτης αλληλεπίδρασης:
+  - ειδοποιήσεις σε φορετή συσκευή (πληροφορία “με μια ματιά”)
+  - NFC tap-to-pay (χειρονομία εγγύτητας + άμεσο feedback).
 gallery:
   - nokia-steel-hr-notification
   - mobile-payment-nfc
