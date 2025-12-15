@@ -23,11 +23,13 @@ events:
   - xerox-cedar
   - oberon
   - eye-phone
+  - hxeia
   - mediaspace
   - canon-cat
   - hypercard
   - weiser-tab-pad-board
   - digital-desk
   - lifestreams
+  - thermal
 ---
 
