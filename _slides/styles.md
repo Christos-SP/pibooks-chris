@@ -23,5 +23,7 @@ slides:
   - apple-newton
   - igoefinger
   - chat-bot
+  - ghc50
+  - gpsmap67
 ---
 
