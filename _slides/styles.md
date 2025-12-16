@@ -20,6 +20,8 @@ slides:
   - xerox-star-pc
   - pull-down-menus
   - videoplace
+  - nes-zapper
+  - konami-laserscope
   - apple-newton
   - igoefinger
   - chat-bot

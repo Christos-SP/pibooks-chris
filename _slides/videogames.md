@@ -4,14 +4,18 @@ title: Βιντεοπαιχνίδια
 image_url: /images/spacewar-gamepad.jpg
 caption: Τα βίντεοπαιχνίδια ακολουθούν μια παράλληλη με τους υπολογιστές γραφείου διαδρομή, με διαφορετικά είδη γραφικών και συσκευών εισόδου, καθώς και άλλες μεταφορές για την αλληλεπίδραση με τον χρήστη. 
 slides:
+  - tennis-for-two
   - spacewar-players
   - spacewar-gamepad
   - magnavox-odyssey
   - pong
-  - adventure-videogame 
-  - pop
+  - adventure-videogame
   - c64-demoscene
   - math-blaster
+  - nes-zapper
+  - pop
+  - konami-laserscope
   - minecraft-end-user
   - kinect
+  - tennisfor2-android-win10
 ---
