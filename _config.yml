@@ -14,9 +14,10 @@ title                    : "Ο Προγραμματισμός της Διάδρ�
 title_separator          : "-"
 name                     : "pibook"
 description              : "Programming Interactivity Greek Book."
-url                      : "https://siadal-sdy60-ge2.netlify.app/"
+url                      : "pibookbysdy60.netlify.app"
 baseurl                  : ""
-repository               : "https://github.com/Christos-SP/pibooks-chris.git"
+repository               : "sdy60-2025/site"
+branch                   : "noSubmodules"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
