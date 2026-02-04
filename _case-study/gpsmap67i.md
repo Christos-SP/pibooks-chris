@@ -11,4 +11,4 @@ tags:
   - success
 ---
 
-{% include cs-wikipedia.md %}
+{% include cs-gpsmap67i.md %}
