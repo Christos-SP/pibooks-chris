@@ -1,9 +1,9 @@
 ---
 author: epidrome
-image_url: /images/topoactive.jpg
-title: Ψηφιακοί χάρτες TopoActive  
-caption: Οι χάρτες Garmin TopoActive είναι ψηφιακοί τοπογραφικοί χάρτες βελτιστοποιημένοι για υπαίθριες δραστηριότητες (πεζοπορία, ποδηλασία) και βασίζονται στα δεδομένα της κοινότητας. OpenStreetMap (OSM).
-license_url: "https://www.garmin.com/en-US/p/730831/"
+image_url: /images/embedded_sensors.png
+title: Ενσωματωμένοι αισθητήρες  
+caption:Η οθόνη αισθητήρων του Garmin GPSMAP 67i συγκεντρώνει κρίσιμες πληροφορίες όπως η ταχύτητα, η απόσταση από τον επόμενο σταθμό και ο εκτιμώμενος χρόνος άφιξης (ETA), υποστηριζόμενα από την τεχνολογία Multi-band GNSS για μέγιστη ακρίβεια θέσης.
+license_url: "https://skordilis.gr/product/gpsmap-h1-topo-active-europe-middle-east-and-africa/"
 license_text: Garmin
 categories:
   - Σύνθεση
