@@ -6,7 +6,6 @@ caption: Η οθόνη αισθητήρων του Garmin GPSMAP 67i συγκε�
 license_url: "https://skordilis.gr/product/gpsmap-h1-topo-active-europe-middle-east-and-africa/"
 license_text: Garmin
 categories:
-  - Σύνθεση
   - Κινητός Υπολογισμός
 tags:
   - Επίγνωση Πλαισίου
