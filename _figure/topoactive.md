@@ -7,7 +7,7 @@ license_url: "https://www.garmin.com/en-US/p/730831/"
 license_text: Garmin
 categories:
   - Σύνθεση
-  - Συνεργασία
+  - Κινητός Υπολογισμός
 tags:
   - map
   - GPSMAP67i
