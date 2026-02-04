@@ -8,7 +8,7 @@ categories:
   - Φορετός Υπολογισμός
 tags:
   - Ψηφιακοί χάρτες TopoActive
-  - success
+  - Κινητός Υπολογισμός
 ---
 
 {% include cs-gpsmap67i.md %}
