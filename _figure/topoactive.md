@@ -11,5 +11,4 @@ categories:
 tags:
   - map
   - GPSMAP67i
-  - Amaya
 ---
