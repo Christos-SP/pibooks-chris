@@ -9,7 +9,7 @@ categories:
   - Σύνθεση
   - Κινητός Υπολογισμός
 tags:
-  - map
+  - Επίγνωση Πλαισίου
   - GPSMAP67i
   - location
 ---
