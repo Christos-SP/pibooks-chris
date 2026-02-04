@@ -9,7 +9,7 @@ categories:
   - Σύνθεση
   - Συνεργασία
 tags:
-  - Wikipedia
+  - map
   - Wikimedia
   - Amaya
 ---
