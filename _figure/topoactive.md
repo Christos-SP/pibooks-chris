@@ -10,6 +10,6 @@ categories:
   - Συνεργασία
 tags:
   - map
-  - Wikimedia
+  - GPSMAP67i
   - Amaya
 ---
