@@ -11,4 +11,5 @@ categories:
 tags:
   - map
   - GPSMAP67i
+  - location
 ---
