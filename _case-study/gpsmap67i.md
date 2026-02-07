@@ -14,4 +14,4 @@ tags:
   - Κινητός Υπολογισμός
 ---
 
-{% include cs-gpsmap67i.md %}
+#{% include cs-gpsmap67i.md %}
