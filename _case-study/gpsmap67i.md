@@ -15,3 +15,4 @@ tags:
 ---
 
 #{% include cs-gpsmap67i.md %}
+TEST
