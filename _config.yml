@@ -7,7 +7,6 @@
 
 theme: minimal-mistakes-jekyll
 # remote_theme: "mmistakes/minimal-mistakes"
-include: ["_case-study"]
 # Site Settings
 locale                   : "gr-GR"
 title                    : "Ο Προγραμματισμός της Διάδρασης"
@@ -16,6 +15,10 @@ name                     : "pibook"
 description              : "Programming Interactivity Greek Book."
 url                      : "https://pibookbysdy60.netlify.app"
 baseurl                  : ""
+collections:
+  case-study:
+    output: true
+    permalink: /case-study/:name/
 repository               : "pibook/site"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
