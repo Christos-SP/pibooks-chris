@@ -13,7 +13,7 @@ title                    : "Ο Προγραμματισμός της Διάδρ�
 title_separator          : "-"
 name                     : "pibook"
 description              : "Programming Interactivity Greek Book."
-url: "https://pibookbysdy60.netlify.app"
+url: "https://apapost.netlify.app"
 baseurl: ""
 repository: "pibook/site"
 words_per_minute: 200
