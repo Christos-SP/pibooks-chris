@@ -14,12 +14,13 @@ events:
   - plato4
   - xerox-gypsy
   - videoplace
+  - nes-zapper
   - vpl-data-glove
   - vpl-data-suit
   - power-glove
+  - konami-laserscope
   - digital-desk
   - media-scrub
   - kinect
   - leap-motion
 ---
-
