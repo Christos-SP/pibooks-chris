@@ -7,7 +7,7 @@
 
 theme: minimal-mistakes-jekyll
 # remote_theme: "mmistakes/minimal-mistakes"
-
+include: ["_case-study"]
 # Site Settings
 locale                   : "gr-GR"
 title                    : "Ο Προγραμματισμός της Διάδρασης"
