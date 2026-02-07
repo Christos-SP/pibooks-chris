@@ -7,23 +7,17 @@
 
 theme: minimal-mistakes-jekyll
 # remote_theme: "mmistakes/minimal-mistakes"
+
 # Site Settings
 locale                   : "gr-GR"
 title                    : "Ο Προγραμματισμός της Διάδρασης"
 title_separator          : "-"
 name                     : "pibook"
 description              : "Programming Interactivity Greek Book."
-url: "https://pibookbysdy60.netlify.app"
-baseurl: ""
-
-collections:
-  case-study:
-    output: true
-    permalink: /case-study/:name/
-
-repository: "pibook/site"
-words_per_minute: 200
-repository               : "pibook/site"
+url                      : ""
+baseurl                  : ""
+repository               : "sdy60-2025/site"
+branch                   : "noSubmodules"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
