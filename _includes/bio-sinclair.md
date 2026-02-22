@@ -1,6 +1,6 @@
 <figure id="fig:clive-sinclair">
-{% include figure image_path="/images/clive-sinclair.jpg" caption=""
-alt="Sir Clive inclair" %}
+{% include figure image_path="/images/sinclair.jpg" caption=""
+alt="Sir Clive Sinclair" %}
 <figcaption>
 Ο Sir Clive Marles Sinclair (30 Ιουλίου 1940 – 16 Σεπτεμβρίου 2021) ήταν Άγγλος εφευρέτης και επιχειρηματίας που έπαιξε καθοριστικό ρόλο στην εξέλιξη των πρώτων οικιακών υπολογιστών για το ευρύ κοινό.
 </figcaption>
