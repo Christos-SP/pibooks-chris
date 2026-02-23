@@ -13,16 +13,19 @@ excerpt: 'Σχεδιασμός και κατασκευή συνεργατικώ�
 
 <div class="feature__wrapper">
 
-  {% assign random = site.time | date: "%s%N" | modulo: site.biography.size %}
+  {% if site.biography.size > 0 %}
+    {% assign random = site.time | date: "%s%N" | modulo: site.biography.size %}
+    {% include feature_col.html id="biography" type="left" index=random %}
+  {% endif %}
 
-  {% include feature_col.html id="biography" type="left" index=random %}
+  {% if site.figure.size > 0 %}
+    {% assign random = site.time | date: "%s%N" | modulo: site.figure.size %}
+    {% include feature_col.html id="figure" type="center" index=random %}
+  {% endif %}
 
-  {% assign random = site.time | date: "%s%N" | modulo: site.figure.size %}
-
-  {% include feature_col.html id="figure" type="center" index=random %}
-
-  {% assign random = site.time | date: "%s%N" | modulo: site.case-study.size %}
-
-  {% include feature_col.html id="case-study" type="right" index=random %}
+  {% if site.case-study.size > 0 %}
+    {% assign random = site.time | date: "%s%N" | modulo: site.case-study.size %}
+    {% include feature_col.html id="case-study" type="right" index=random %}
+  {% endif %}
 
 <div>
