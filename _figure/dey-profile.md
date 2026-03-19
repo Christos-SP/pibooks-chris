@@ -1,6 +1,6 @@
 ---
 author: epidrome
-title: Douglas Engelbart 
+title: Anind Dey
 image_url: /images/dey-profile.jpg
 caption: Ο Dey έθεσε τις βάσεις για αυτό που σήμερα θεωρούμε δεδομένο στα smartphone μας, όπως το να αλλάζει η φωτεινότητα αυτόματα ή να μας προτείνει ο χάρτης διαδρομές βάσει τοποθεσίας. 
 year: 2008 
