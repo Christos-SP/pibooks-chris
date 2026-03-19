@@ -2,7 +2,7 @@
 author: epidrome
 title: Χρήση έξυπνου τηλεφώνου
 image_url: /images/smartphone-use.jpg
-caption: Ο Dey έθεσε τις βάσεις για αυτό που σήμερα θεωρούμε δεδομένο στα smartphone μας, όπως το να αλλάζει η φωτεινότητα αυτόματα ή να μας προτείνει ο χάρτης διαδρομές βάσει τοποθεσίας. 
+caption:  Η εικόνα ενός smartphone στο χέρι μας σήμερα μοιάζει αυτονόητη, όμως η ευφυΐα του οφείλεται σε μεγάλο βαθμό στο έργο του Anind Dey. Ως πρωτοπόρος των συστημάτων με επίγνωση πλαισίου (context-aware computing), ο Dey επαναπροσδιόρισε το smartphone όχι απλώς ως μια συσκευή επικοινωνίας, αλλά ως έναν «αισθητήρα» που κατανοεί το περιβάλλον του χρήστη.
 year: 2016 
 license_url: "https://en.wikipedia.org/wiki/Mobile_technology" 
 license_text: Wikipedia 
