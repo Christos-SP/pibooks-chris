@@ -7,9 +7,10 @@ year: 2008
 license_url: "https://ischool.uw.edu/news/2017/07/qa-ischools-next-dean-anind-dey" 
 license_text: University of Washington 
 categories:
-  - Μοντέλα 
-  - Συνεργατικά Συστήματα 
-  - Επαυξημένη Νοημοσύνη
+  - Διάδραση Ανθρώπου-Υπολογιστή (HCI)
+  - Διάχυτος Υπολογισμός (Ubiquitous/Pervasive Computing)
+  - Κινητές & Φορητές Συσκευές
+  - Πλοήγηση & Ενσωματωμένα Συστήματα (Navigation & Embedded Systems)
 tags:
   - NLS
   - Ποντίκι
