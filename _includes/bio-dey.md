@@ -7,7 +7,7 @@ Interaction Institute (HCII), ενός από τα κορυφαία ινστιτ
 τομέα της αλληλεπίδρασης ανθρώπου - υπολογιστή.
 
 <figure id="fig:engelbart-profile">
-{% include figure image_path="/images/engelbart-profile.jpg" caption=""
+{% include figure image_path="/images/dey-profile.jpg" caption=""
 alt="Douglas Engelbart" %}
 <figcaption>
 Το έργο του Douglas Engelbart θεμελίωσε τη συνεργατική και διαδραστική
