@@ -6,9 +6,9 @@ Mellon University όπου διετέλεσε καθηγητής και διευ
 Interaction Institute (HCII), ενός από τα κορυφαία ινστιτούτα παγκοσμίως στον
 τομέα της αλληλεπίδρασης ανθρώπου - υπολογιστή.
 
-<figure id="fig:engelbart-profile">
+<figure id="fig:dey-profile">
 {% include figure image_path="/images/dey-profile.jpg" caption=""
-alt="Douglas Engelbart" %}
+alt="Anind Dey" %}
 <figcaption>
 Το έργο του Douglas Engelbart θεμελίωσε τη συνεργατική και διαδραστική
 χρήση των πληροφοριακών συστήματων, αλλά το όραμα για την επαύξηση της
