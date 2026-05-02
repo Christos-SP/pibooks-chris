@@ -3,10 +3,13 @@ layout: single
 title: Pythagoras
 header: no
 categories:
+  - visualization
   - tools
 tags:
-  - menu
-  - scroll
+  - visualization
+  - maths
+  - shapes
+  - education
   - HCI
 ---
 
