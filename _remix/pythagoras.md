@@ -1,1 +1,24 @@
+---
+layout: single
+title: Menu scroll
+header: no
+categories:
+  - tools
+tags:
+  - menu
+  - scroll
+  - HCI
+---
 
+Διαδραστικό παράδειγμα responsive μενού σε One page template χρησιμοποιώντας τη βιβιοθήκη Τwitter Βootstrap 3.0 . Στο παράδειγμα εμφανίζεται το μενού έπειτα από κύλιση του ποντικιού και υποστηρίζεται η λειτουργία αυτόματης μεταφοράς (scroll) στην ενότητα/κεφάλαιο που θα επιλέξει ο χρήστης μέσω του μενού.
+
+<p class="codepen" data-height="300" data-pen-title="Ο Διαδραστικός Πυθαγόρας" data-default-tab="result" data-slug-hash="VYmYgmJ" data-user="Apostolos-Apostolidis" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/Apostolos-Apostolidis/pen/VYmYgmJ">
+  Ο Διαδραστικός Πυθαγόρας</a> by Apostolos Apostolidis (<a href="https://codepen.io/Apostolos-Apostolidis">@Apostolos-Apostolidis</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://public.codepenassets.com/embed/index.js"></script>
+
+Άσκηση 1: Δημιουργείστε ένα επιπλέον στοιχείο στο μενού και κατόπιν φτιάξτε μια αντίστοιχη ενότητα/κεφάλαιο στο τέλος της σελίδας. Εφαρμόστε την λειτουργία scroll-to συνδέοντας το μενού με την καινούρια ενότητα/κεφάλαιο.
+
+Άσκηση 2: Δημιουργείστε κουμπί στο τέλος της σελίδας. Κάθε φορά που το επιλέγει ο χρήστης να εκτελείται μεταφορά (scroll) στην πρώτη/αρχική ενότητα/κεφάλαιο.
