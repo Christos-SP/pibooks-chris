@@ -1,6 +1,6 @@
 ---
 layout: single
-title: Menu scroll
+title: Pythagoras
 header: no
 categories:
   - tools
