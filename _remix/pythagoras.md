@@ -17,7 +17,7 @@ tags:
   Ο Διαδραστικός Πυθαγόρας</a> by Apostolos Apostolidis (<a href="https://codepen.io/Apostolos-Apostolidis">@Apostolos-Apostolidis</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
-<script async src="https://public.codepenassets.com/embed/index.js"></script>
+<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
 
 Άσκηση 1: Δημιουργείστε ένα επιπλέον στοιχείο στο μενού και κατόπιν φτιάξτε μια αντίστοιχη ενότητα/κεφάλαιο στο τέλος της σελίδας. Εφαρμόστε την λειτουργία scroll-to συνδέοντας το μενού με την καινούρια ενότητα/κεφάλαιο.
 
