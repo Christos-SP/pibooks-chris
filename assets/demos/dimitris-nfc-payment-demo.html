@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NFC Payment Demo</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f6f8;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      margin: 0;
+    }
+
+    .card {
+      background: white;
+      padding: 24px;
+      border-radius: 16px;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+      width: 340px;
+    }
+
+    h2 {
+      margin-top: 0;
+      font-size: 22px;
+      text-align: center;
+    }
+
+    p.desc {
+      color: #555;
+      font-size: 14px;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    label {
+      display: block;
+      margin: 12px 0 6px;
+      font-weight: bold;
+      font-size: 14px;
+    }
+
+    input {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      box-sizing: border-box;
+      font-size: 15px;
+    }
+
+    .actions {
+      display: flex;
+      gap: 10px;
+      margin-top: 18px;
+    }
+
+    button {
+      flex: 1;
+      padding: 12px;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      font-size: 15px;
+      font-weight: bold;
+    }
+
+    #payBtn {
+      background: #0a84ff;
+      color: white;
+    }
+
+    #retryBtn {
+      background: #e5e7eb;
+      color: #111;
+      display: none;
+    }
+
+    .status {
+      margin-top: 18px;
+      padding: 12px;
+      border-radius: 10px;
+      font-weight: bold;
+      text-align: center;
+      display: none;
+    }
+
+    .success {
+      background: #dcfce7;
+      color: #166534;
+    }
+
+    .error {
+      background: #fee2e2;
+      color: #991b1b;
+    }
+
+    .hint {
+      margin-top: 10px;
+      font-size: 13px;
+      color: #666;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h2>NFC Payment Demo</h2>
+    <p class="desc">Προσομοίωση πληρωμής τύπου tap-to-pay με σαφές feedback.</p>
+
+    <label for="phone">Αριθμός κινητού</label>
+    <input
+      id="phone"
+      type="tel"
+      placeholder="6912345678"
+      pattern="^69\d{8}$"
+      required
+    />
+
+    <label for="amount">Ποσό πληρωμής (€)</label>
+    <input
+      id="amount"
+      type="number"
+      placeholder="12.50"
+      min="1"
+      step="0.01"
+      required
+    />
+
+    <div class="actions">
+      <button id="payBtn">Tap to Pay</button>
+      <button id="retryBtn">Try Again</button>
+    </div>
+
+    <div id="statusBox" class="status"></div>
+
+    <p class="hint">
+      Το παράδειγμα δείχνει γιατί είναι σημαντικό το σαφές feedback σε αλληλεπιδράσεις πληρωμής.
+    </p>
+  </div>
+
+  <script>
+    const phoneInput = document.getElementById("phone");
+    const amountInput = document.getElementById("amount");
+    const payBtn = document.getElementById("payBtn");
+    const retryBtn = document.getElementById("retryBtn");
+    const statusBox = document.getElementById("statusBox");
+
+    function showStatus(message, type) {
+      statusBox.textContent = message;
+      statusBox.className = "status " + type;
+      statusBox.style.display = "block";
+    }
+
+    function resetPayment() {
+      statusBox.style.display = "none";
+      retryBtn.style.display = "none";
+    }
+
+    payBtn.addEventListener("click", function () {
+      const phone = phoneInput.value.trim();
+      const amount = amountInput.value.trim();
+
+      const phoneValid = /^69\d{8}$/.test(phone);
+      const amountValid = parseFloat(amount) > 0;
+
+      if (!phoneValid) {
+        showStatus("Failed: Ο αριθμός πρέπει να είναι στη μορφή 69XXXXXXXX.", "error");
+        retryBtn.style.display = "inline-block";
+        return;
+      }
+
+      if (!amountValid) {
+        showStatus("Failed: Δώσε έγκυρο ποσό πληρωμής.", "error");
+        retryBtn.style.display = "inline-block";
+        return;
+      }
+
+      // Απλή προσομοίωση επιτυχίας / αποτυχίας
+      const success = Math.random() > 0.3;
+
+      if (success) {
+        showStatus("Approved: Η πληρωμή ολοκληρώθηκε με επιτυχία.", "success");
+        retryBtn.style.display = "none";
+      } else {
+        showStatus("Failed: Η συναλλαγή δεν ολοκληρώθηκε. Προσπάθησε ξανά.", "error");
+        retryBtn.style.display = "inline-block";
+      }
+    });
+
+    retryBtn.addEventListener("click", function () {
+      resetPayment();
+    });
+  </script>
+</body>
+</html>
